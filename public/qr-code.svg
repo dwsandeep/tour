@@ -1,0 +1,46 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="24" fill="white"/>
+  <g fill="#0F172A">
+    <rect x="18" y="18" width="18" height="18"/>
+    <rect x="18" y="54" width="18" height="18"/>
+    <rect x="18" y="90" width="18" height="18"/>
+    <rect x="18" y="126" width="18" height="18"/>
+    <rect x="18" y="162" width="18" height="18"/>
+    <rect x="18" y="198" width="18" height="18"/>
+    <rect x="54" y="18" width="18" height="18"/>
+    <rect x="90" y="18" width="18" height="18"/>
+    <rect x="126" y="18" width="18" height="18"/>
+    <rect x="162" y="18" width="18" height="18"/>
+    <rect x="198" y="18" width="18" height="18"/>
+    <rect x="54" y="54" width="18" height="18"/>
+    <rect x="126" y="54" width="18" height="18"/>
+    <rect x="162" y="54" width="18" height="18"/>
+    <rect x="198" y="54" width="18" height="18"/>
+    <rect x="54" y="90" width="18" height="18"/>
+    <rect x="90" y="90" width="18" height="18"/>
+    <rect x="126" y="90" width="18" height="18"/>
+    <rect x="162" y="90" width="18" height="18"/>
+    <rect x="198" y="90" width="18" height="18"/>
+    <rect x="54" y="126" width="18" height="18"/>
+    <rect x="126" y="126" width="18" height="18"/>
+    <rect x="162" y="126" width="18" height="18"/>
+    <rect x="198" y="126" width="18" height="18"/>
+    <rect x="54" y="162" width="18" height="18"/>
+    <rect x="90" y="162" width="18" height="18"/>
+    <rect x="126" y="162" width="18" height="18"/>
+    <rect x="198" y="162" width="18" height="18"/>
+    <rect x="54" y="198" width="18" height="18"/>
+    <rect x="90" y="198" width="18" height="18"/>
+    <rect x="126" y="198" width="18" height="18"/>
+    <rect x="162" y="198" width="18" height="18"/>
+    <rect x="198" y="198" width="18" height="18"/>
+    <rect x="90" y="54" width="18" height="18"/>
+    <rect x="162" y="54" width="18" height="18"/>
+    <rect x="90" y="126" width="18" height="18"/>
+    <rect x="198" y="126" width="18" height="18"/>
+    <rect x="90" y="162" width="18" height="18"/>
+    <rect x="126" y="54" width="18" height="18"/>
+    <rect x="54" y="198" width="18" height="18"/>
+    <rect x="162" y="162" width="18" height="18"/>
+  </g>
+</svg>
