@@ -6,8 +6,8 @@ type CarCardProps = {
 
 export default function CarCard({ car }: CarCardProps) {
   return (
-    <article className="flex flex-col overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm">
-      <div className="relative h-56 overflow-hidden bg-slate-100">
+    <article className="flex flex-col overflow-hidden rounded-[2rem] border border-border bg-surface shadow-sm">
+      <div className="relative h-56 overflow-hidden bg-surface-muted">
         <img
           src={car.image}
           alt={car.name}
@@ -16,36 +16,36 @@ export default function CarCard({ car }: CarCardProps) {
       </div>
       <div className="flex flex-1 flex-col p-6">
         <div className="mb-4">
-          <p className="text-sm uppercase tracking-[0.28em] text-sky-600">Rental car</p>
-          <h3 className="mt-3 text-2xl font-semibold text-slate-950">{car.name}</h3>
+          <p className="text-sm uppercase tracking-[0.28em] text-accent">Rental car</p>
+          <h3 className="mt-3 text-2xl font-semibold text-foreground">{car.name}</h3>
         </div>
-        <div className="mb-6 grid gap-3 text-sm text-slate-600 sm:grid-cols-2">
-          <div className="rounded-3xl bg-slate-50 p-4">
-            <p className="font-semibold text-slate-900">Seating</p>
+        <div className="mb-6 grid gap-3 text-sm text-muted-foreground sm:grid-cols-2">
+          <div className="rounded-3xl bg-surface-muted p-4">
+            <p className="font-semibold text-foreground">Seating</p>
             <p>{car.seating} passengers</p>
           </div>
-          <div className="rounded-3xl bg-slate-50 p-4">
-            <p className="font-semibold text-slate-900">AC</p>
+          <div className="rounded-3xl bg-surface-muted p-4">
+            <p className="font-semibold text-foreground">AC</p>
             <p>{car.ac ? "Included" : "Not included"}</p>
           </div>
         </div>
-        <div className="mt-auto flex items-center justify-between gap-4 border-t border-slate-200 pt-5">
+        <div className="mt-auto flex items-center justify-between gap-4 border-t border-border pt-5">
           <div>
-            <p className="text-sm text-slate-500">Price / km</p>
-            <p className="text-xl font-semibold text-slate-950">{car.pricePerKm}</p>
+            <p className="text-sm text-muted-foreground">Price / km</p>
+            <p className="text-xl font-semibold text-foreground">{car.pricePerKm}</p>
           </div>
           <div className="flex items-center gap-3">
             <a
               href={car.whatsapp}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-3xl bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-500"
+              className="inline-flex items-center justify-center rounded-3xl bg-accent px-4 py-2 text-sm font-semibold text-white transition hover:bg-accent/90"
             >
               WhatsApp
             </a>
             <a
               href={`tel:${car.phone}`}
-              className="inline-flex items-center justify-center rounded-3xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-slate-100"
+              className="inline-flex items-center justify-center rounded-3xl border border-border bg-surface px-4 py-2 text-sm font-semibold text-foreground transition hover:bg-surface-muted"
             >
               Call now
             </a>
